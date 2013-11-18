@@ -239,18 +239,23 @@
 		901F1419181B16A00007C852 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tag/Tag-Prefix.pch";
 				PRODUCT_NAME = tag;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		901F141A181B16A00007C852 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tag/Tag-Prefix.pch";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = tag;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
